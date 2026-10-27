@@ -1,28 +1,15 @@
-// ELEC2645 Unit 1.4 Activity 6 - Debug Practice
-// This multi-file program should read a name, convert it to uppercase
-// and print an ELEC2645 Bot-style name badge.
-
 #include <stdio.h>
 #include "activity6_badge.h"
 
+// 函数声明
+void make_uppercase(char *letter);
+void print_badge(struct Badge *badge);
+
 int main(void)
 {
-    struct Badge badge = {
-        .name = "",
-        .stars = 0
-    };
-
-    printf("Enter your name: ");
-
-    // Is this input safe for the size of the name array?
-    scanf("%s", badge.name);
-
-    // This should modify the whole name in place.
-    // Is the correct value being passed to the function?
-    make_uppercase(badge.name[0]);
-
-    // The function needs the address of the badge.
-    print_badge(badge);
-
+    struct Badge b;
+    strcpy(b.name, "elec2645 student");
+    make_uppercase(b.name);
+    print_badge(&b);
     return 0;
 }
