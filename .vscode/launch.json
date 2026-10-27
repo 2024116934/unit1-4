@@ -1,0 +1,71 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Activity 1: Pointers",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity1_pointers.out",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 1"
+        },
+        {
+            "name": "Activity 2: Pointers with Arrays",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity2_pointers_arrays.out",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 2"
+        },
+        {
+            "name": "Activity 3: Pointers with Structs",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity3_pointers_structs.out",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 3"
+        },
+        {
+            "name": "Activity 4: Dynamic Memory",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity4_dynamic_memory.out",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 4"
+        },
+        {
+            "name": "Activity 5: Camera Buffer Processing",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity5_camera_buffer.out",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 5"
+        },
+        {
+            "name": "Activity 6: Debug Practice",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity6_debug_practice.out",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 6"
+        }
+    ]
+}

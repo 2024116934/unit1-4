@@ -1,0 +1,6 @@
+*.out
+*.o
+core
+core.*
+.DS_Store
+Thumbs.db

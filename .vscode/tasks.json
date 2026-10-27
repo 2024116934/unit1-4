@@ -1,0 +1,89 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Activity 1",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity1_pointers.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build Activity 2",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity2_pointers_arrays.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build Activity 3",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity3_pointers_structs.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build Activity 4",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity4_dynamic_memory.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build Activity 5",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity5_camera_buffer.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build Activity 6",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "activity6_debug_practice.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
